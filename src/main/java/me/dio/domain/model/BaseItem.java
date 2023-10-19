@@ -5,6 +5,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
 
+//Base a ser usada para o Features e o News
 @MappedSuperclass
 public abstract class BaseItem {
 
