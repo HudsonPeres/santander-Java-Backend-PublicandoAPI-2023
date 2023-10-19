@@ -37,8 +37,8 @@ class News {
   - description: String
 }
 
-User --> Account : has
-User --> Feature : has
-User --> Card : has
-User --> News : has
+User *-- Account : 
+User *-- Feature : 
+User *-- Card : 
+User *-- News : 
 ```
